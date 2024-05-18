@@ -28,7 +28,7 @@ body {
 /* SECTION */
 
 .section {
-  padding: 100px 40px;
+  padding: 70px 40px;
 }
 
 .wrap {
@@ -44,6 +44,13 @@ body {
 .section--light {
   background-color: var(--light-bg-color);
   color: var(--text-color);
+}
+
+.section__heading {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 40px;
 }
 
 /* HERO SECTION */
@@ -103,5 +110,47 @@ body {
 .right__byline {
   color: #a68bb0;
   font-size: 18px;
+  font-weight: 400;
+}
+
+/* CARDS SECTION */
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  padding: 40px;
+  border-radius: 10px;
+  display: grid;
+  gap: 20px;
+}
+
+.card:nth-child(1) {
+  background-color: #fdece5;
+}
+.card:nth-child(2) {
+  background-color: #fff2d3;
+}
+.card:nth-child(3) {
+  background-color: #fae5f7;
+}
+.card:nth-child(4) {
+  background-color: #fce5db;
+}
+
+.card__icon {
+  text-align: center;
+}
+
+.card__heading {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.card__byline {
+  font-size: 24px;
   font-weight: 400;
 }
