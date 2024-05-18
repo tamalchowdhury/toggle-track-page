@@ -87,6 +87,9 @@ body {
 
   display: grid;
   gap: 20px;
+
+  grid-template-rows: auto auto;
+  align-content: center;
 }
 
 .notice {
@@ -112,10 +115,58 @@ body {
 }
 
 .right__button {
+}
+
+/* ICON right button */
+.icon {
   background: #fff;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   color: var(--text-color);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  position: relative;
+}
+
+.icon__img {
+  height: 40px;
+  width: 40px;
+  display: block;
+}
+
+.icon__icon {
+  background: var(--dark-bg-color);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.icon__title {
+  font-size: 24px;
+}
+
+.icon__pin {
+  font-size: 30px;
+}
+
+.puzzle__img {
+  display: block;
+  height: 30px;
+  width: 30px;
+}
+
+.icon__puzzle {
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  background: var(--dark-text-color);
+  border-radius: 1000px;
+  height: 60px;
+  width: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .right__byline {
