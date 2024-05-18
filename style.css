@@ -19,3 +19,46 @@
 body {
   font-family: "Segoe UI", Tahoma, sans-serif;
 }
+
+/* SECTION */
+
+.section {
+  padding: 100px 40px;
+}
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section--dark {
+  background-color: var(--dark-bg-color);
+  color: var(--dark-text-color);
+}
+
+.section--light {
+  background-color: var(--light-bg-color);
+  color: var(--text-color);
+}
+
+/* HERO SECTION */
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.hero {
+  grid-column: 1/4;
+  grid-row: 1/3;
+}
+
+.right {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.notice {
+  grid-column: 1/4;
+}
