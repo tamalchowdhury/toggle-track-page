@@ -109,6 +109,16 @@ body {
   color: var(--accent-color);
 }
 
+.headline--highlight > span {
+  display: inline-block;
+  rotate: 20deg;
+  margin-left: -17px;
+}
+
+.headline--highlight > span:first-child {
+  margin-left: 0;
+}
+
 .hero__byline {
   font-size: 22px;
   font-weight: 400;
