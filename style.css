@@ -1,0 +1,21 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-bg-color: #2c1338;
+  --light-bg-color: #fdf4f0;
+  --text-color: #412a4c;
+  --dark-text-color: #fdf1ec;
+  --accent-color: #e57cd8;
+  --btn-bg-color: #ffebbd;
+  --btn-bg-color-hover: #fccf67;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
